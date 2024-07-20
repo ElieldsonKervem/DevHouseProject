@@ -1,7 +1,7 @@
-const app = require('./app');
+import app from './app.js';
+
 const port = 3333;
 
-app.listen(port,()=>{
-    console.log('Servidor rodando na porta ' + port)
-})
-
+app.listen(port, () => {
+    console.log('Servidor rodando na porta ' + port);
+});
